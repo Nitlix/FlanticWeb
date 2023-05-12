@@ -7,10 +7,7 @@ export default function PremiumButton( {extraClass } ){
         <>
             <style jsx global>{`
                 .premiumButton {
-                    background: linear-gradient(97.18deg, rgba(255, 153, 0, 0.217) 0%, rgba(255, 153, 0, 0.35) 65.1%, rgba(159, 108, 7, 0.259) 100%);
-                    border-radius: 1rem;
-
-                    padding: 1rem 1.5rem;
+                    background: linear-gradient(97.18deg, rgba(255, 153, 0, 0.217) 0%, rgba(255, 153, 0, 0.35) 65.1%, rgba(159, 108, 7, 0.259) 100%) !important;
                 }
 
                 .premiumButton img {

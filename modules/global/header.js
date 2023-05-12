@@ -1,3 +1,4 @@
+import Button from "./Button";
 import PremiumButton from "./PremiumButton";
 import Logo from "./logo";
 
@@ -27,6 +28,7 @@ export default function Header() {
                 </div>
                 <div className="flex center gap2">
                     <PremiumButton />
+                    <Button><h3>Log In</h3></Button>
                 </div>
             </div>
         </>
