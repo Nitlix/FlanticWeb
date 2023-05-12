@@ -1,5 +1,6 @@
 
 
+import { vars } from "@/essentials/vars";
 
 export default function VectorBackground() {
     return (
@@ -11,7 +12,9 @@ export default function VectorBackground() {
                     position: absolute;
                     z-index: -1;
                     left: 0;
-                    background: url("/assets/UI/background/VectorBackground.svg");
+
+                    background-image: url(${vars.ui.vectorBackground});
+                    background-size: cover;
                 }
             `}</style>
 

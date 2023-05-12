@@ -4,13 +4,13 @@
 
 
 	--backg: #0f121e;
-	--page-spacing: 18.7rem;
+	--page-spacing: 10rem;
 }
 
 body {
 	background: var(--backg);
-	font-family: 'Inter';
-	font-weight: 400;
+	font-family: 'Inter' !important;
+	font-weight: 400 !important;
 	color: var(--primary);
 	padding: 0 var(--page-spacing);
 }
@@ -29,7 +29,8 @@ h3 {
 /* Paragraph settings */
 p,span,a {
 	font-weight: 500;
-	color: var(--desc)
+	color: var(--desc);
+	font-size: 1.2rem;
 }
 
 

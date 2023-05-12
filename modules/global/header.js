@@ -1,3 +1,4 @@
+import PremiumButton from "./PremiumButton";
 import Logo from "./logo";
 
 
@@ -23,6 +24,9 @@ export default function Header() {
                         <a href="/invite">Support</a>
                         <a href="/support">Status</a>
                     </div>
+                </div>
+                <div className="flex center gap2">
+                    <PremiumButton />
                 </div>
             </div>
         </>
