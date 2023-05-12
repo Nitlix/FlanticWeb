@@ -1,4 +1,4 @@
-export const clientOnly = (callback) => {
+export function clientOnly(callback) {
     if (typeof window !== 'undefined') {
         return callback()
     }
