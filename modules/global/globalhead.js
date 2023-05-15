@@ -17,11 +17,6 @@ export default function GlobalHead() {
             <meta property="og:title" content={data.embed.title} />
             <meta property="og:description" content={data.embed.desc} />
             <meta property="og:image" content={data.embed.image} />
-
-
-
-            {/* Develop on FlameCSS */}
-            <link rel="stylesheet" href="https://code.nitlix.pro/css/flame-min.css" />
         </Head>
     )
 }

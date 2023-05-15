@@ -1,5 +1,5 @@
-import Button from "./Button";
-import PremiumButton from "./PremiumButton";
+import Button from "./buttons/Button";
+import PremiumButton from "./buttons/PremiumButton";
 import Logo from "./logo";
 
 

@@ -7,7 +7,7 @@ export default function VectorBackground() {
         <>
             <style jsx>{`
                 .vectorBackground {
-                    min-height: 100vh;
+                    min-height: 200vh;
                     min-width: 100vw;
                     position: absolute;
                     z-index: -1;
