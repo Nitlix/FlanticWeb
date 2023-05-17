@@ -17,6 +17,11 @@ export default function GlobalHead() {
             <meta property="og:title" content={data.embed.title} />
             <meta property="og:description" content={data.embed.desc} />
             <meta property="og:image" content={data.embed.image} />
+
+            {/* twitter banner image */}
+            <meta name="twitter:card" content="summary_large_image" />
+
+            
         </Head>
     )
 }
