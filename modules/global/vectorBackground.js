@@ -2,7 +2,7 @@
 
 import { vars } from "@/essentials/vars";
 
-export default function VectorBackground() {
+export default function VectorBackground({...props}) {
     return (
         <>
             <style jsx>{`
@@ -18,7 +18,7 @@ export default function VectorBackground() {
                 }
             `}</style>
 
-            <div className="vectorBackground" />
+            <div className="vectorBackground" {...props} />
 
         </>
     )

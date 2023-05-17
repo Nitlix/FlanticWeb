@@ -52,6 +52,7 @@ a {
 /* font sizes */
 h1 {
 	font-size: 5rem;
+	letter-spacing: -.075rem;
 }
 
 h2 {

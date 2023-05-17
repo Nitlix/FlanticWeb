@@ -16,7 +16,7 @@ export default function Footer() {
                         grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
                         padding: 4rem var(--page-spacing);
 
-                        background: #1A1D2B80;
+                        background: #12151f;
 
                         width: 100vw;
                         margin-left: calc(-1 * var(--page-spacing));
