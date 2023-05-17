@@ -13,6 +13,8 @@ body {
 	font-weight: 400 !important;
 	color: var(--primary);
 	padding: 0 var(--page-spacing);
+
+	overflow-x: hidden;
 }
 
 

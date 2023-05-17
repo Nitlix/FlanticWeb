@@ -7,7 +7,7 @@ export const vars = {
         desc: "Flantic is a revolutionary Discord bot used by over 100 thousand servers and 25 million users.",
         embed: {
             title: 'Meet Flantic: The new generation of multi-purpose Discord bots.',
-            image: ''
+            image: 'https://flantic.nitlix.pro/embed.webp'
         }
     },
     ui: {
