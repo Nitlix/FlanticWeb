@@ -13,6 +13,6 @@ export const vars = {
         }
     },
     ui: {
-        vectorBackground: 'assets/UI/background/VectorBackground.svg'
+        vectorBackground: 'assets/img/UI/background/VectorBackground.svg'
     }
 }

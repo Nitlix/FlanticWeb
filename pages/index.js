@@ -9,6 +9,7 @@ import Button from "@/modules/global/buttons/Button";
 import GreyButton from "@/modules/global/buttons/GreyButton";
 import Statistics from "@/modules/index/Statistics";
 import Slide, { ImageContainer } from "@/modules/global/Slide";
+import Footer from "@/modules/global/Footer";
 
 export default function Home() {
   	return (
@@ -21,7 +22,7 @@ export default function Home() {
 					<h1>Meet 
 					</h1>
 					<div className="flex center">
-						<Image src="/assets/logo/icon.svg" width={62} height={62} alt="Flantic Logo" />
+						<Image src="/assets/img/logo/icon.svg" width={62} height={62} alt="Flantic Logo" />
 						<GradientText><h1>lantic</h1></GradientText>
 					</div>
 				</div>
@@ -32,7 +33,7 @@ export default function Home() {
 				</p>
 				<div className="flex center gap1">
 					<Button className="flex center gap1">
-						<img src="/assets/UI/icons/discord.svg" />
+						<img src="/assets/icons/discord.svg" />
 						<h3>Add to Discord</h3>
 					</Button>
 					<GreyButton>
@@ -47,7 +48,7 @@ export default function Home() {
 
 
 			<Slide style={{'background': '#14172180'}}>
-				<div className="flex v gap2">
+				<div className="flex v gap2 vcenter">
 					<h2>Keep your server safe.</h2>
 					<p>
 						Flantic Security acts as a barrier against <br />
@@ -55,7 +56,7 @@ export default function Home() {
 						creating channels, mass mentions, pruning members. <br />
 					</p>
 					<Button className="flex center" style={{'gap': '1.5rem'}}>
-						<img src="/assets/UI/icons/discord.svg" style={{'width': '31px'}}/>
+						<img src="/assets/icons/discord.svg" style={{'width': '31px'}}/>
 						<h3>Add to Discord</h3>
 					</Button>
 
@@ -63,10 +64,34 @@ export default function Home() {
 				</div>
 
 				<ImageContainer>
-					<img src="/assets/UI/examples/group.svg" />
+					<img src="/assets/img/showcase/group.svg" />
 				</ImageContainer>
 			</Slide>
 
+			<Slide style={{'background': '#0F121E80'}} className="reverse">
+				<ImageContainer>
+					<img src="/assets/img/showcase/automod.svg" />
+				</ImageContainer>
+				<div className="flex v gap2 vcenter">
+					<h2>Auto Moderation</h2>
+					<p>
+						Flantic actively moderates your chat without any<br />
+						help from moderators. It can do anything for you:<br />
+						ban, kick, mute, warn and is easy to set up.<br />
+					</p>
+
+					<Button className="flex center" style={{'gap': '1.5rem'}}>
+						<img src="/assets/icons/discord.svg" style={{'width': '31px'}}/>
+						<h3>Add to Discord</h3>
+					</Button>
+
+				</div>
+
+
+
+			</Slide>
+
+			<Footer />
 			
 		</>
   	)

@@ -17,7 +17,7 @@ export default function Header() {
                 }
             `}</style>
             <div className="header flex space">
-                <div className="flex center gap3">
+                <div className="flex center gap4">
                     <Logo />
 
                     <div className="flex center gap2">

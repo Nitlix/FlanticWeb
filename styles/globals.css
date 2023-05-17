@@ -1,10 +1,13 @@
 :root {
 	--primary: #fff;
-	--desc: #7e8b95;
+	--desc: #A6BFD1;
 
 
 	--backg: #0B0C13;
 	--page-spacing: 10rem;
+
+
+	--main: #04FB9F;
 }
 
 body {
@@ -60,4 +63,11 @@ h2 {
 
 p {
 	line-height: 1.5;
+}
+
+
+
+::selection {
+	background: var(--main);
+	color: #000;
 }

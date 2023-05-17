@@ -24,11 +24,15 @@ export default function Logo({showBack = true}) {
                 .logoWrapper h2 {
                     font-size: 1.25rem;
                 }
+
+                .logoWrapper {
+                    width: max-content;
+                }
             `}</style>
             <div className="flex gap1 center logoWrapper">
                 <div className="logo">
-                    <img src="/assets/logo/icon.svg" alt="Flantic Logo" />
-                    {showBack && <img className="back" src="/assets/logo/button.svg" alt="Flantic Logo Background" />}
+                    <img src="/assets/img/logo/icon.svg" alt="Flantic Logo" />
+                    {showBack && <img className="back" src="/assets/img/logo/button.svg" alt="Flantic Logo Background" />}
                 </div>
                 <h2>
                     Flantic

@@ -10,9 +10,18 @@ export default function Slide({children, className="", ...props}) {
                     width: 100vw;
                     margin-left: calc(-1 * var(--page-spacing));
                     padding: 2rem var(--page-spacing);
-                    min-height: 80vh;
+                    min-height: 90vh;
                     display: grid;
-                    grid-template-columns: 99fr 1fr;
+                    grid-template-columns: 60% 40%;
+                }
+
+                .slide.reverse {
+                    grid-template-columns: 50% 50%;
+                }
+
+                .slide.reverse * {
+                    text-align: right;
+                    align-items: flex-end;
                 }
 
                 .slide * {
@@ -23,6 +32,8 @@ export default function Slide({children, className="", ...props}) {
                 .slide h2 {
                     font-size: 4rem;
                     font-weight: 700;
+
+                    white-space: nowrap;
                 }
 
                 .slide p {
@@ -43,19 +54,25 @@ export default function Slide({children, className="", ...props}) {
 export function ImageContainer({children, ...props}) {
     return (
         <>
-            <style jsx>{`
+            <style jsx global>{`
                 .imageContainer {
-                    position: absolute;
-                    right: 0;
-                    width: 60vw !important;
+                    --sideback: 20rem;
+                    width: calc(100% + var(--sideback));
+                    display: grid;
+                    place-items: center !important;
 
-                    z-index: 1;
+                    z-index: 1;         
+                    transform: translateX(calc(-1 * var(--sideback)));
+                }
 
-                    left: 40%;
+                .slide.reverse .imageContainer {
+                    width: 100%;
+                    transform: none;
                 }
 
                 .imageContainer img {
                     width: 100%;
+                    max-height: 70vh;
                 }
 
 

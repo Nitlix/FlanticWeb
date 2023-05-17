@@ -30,7 +30,7 @@ export default function PremiumButton( {extraClass } ){
             `}</style>
             
             <Button className={`premiumButton flex center gap1 ${extraClass}`}>
-                <img src='assets/UI/icons/crown.svg' />
+                <img src='assets/icons/crown.svg' />
                 <p>Premium</p>
             </Button>
         </>
