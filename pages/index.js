@@ -91,6 +91,28 @@ export default function Home() {
 
 			</Slide>
 
+			<Slide style={{'background': '#14172180'}}>
+				<div className="flex v gap2 vcenter">
+					<h2>Self roles? We've got that.</h2>
+					<p>
+						Flantic will make sure that all of <br />
+						your members are able to get custom <br />
+						roles quickly and easily without any delays. <br />
+					</p>
+					<Button className="flex center" style={{'gap': '1.5rem'}}>
+						<img src="/assets/icons/discord.svg" style={{'width': '31px'}}/>
+						<h3>Add to Discord</h3>
+					</Button>
+
+				
+				</div>
+
+				<ImageContainer>
+					<img src="/assets/img/showcase/group.svg" />
+				</ImageContainer>
+			</Slide>
+
+
 			<Footer />
 			
 		</>
